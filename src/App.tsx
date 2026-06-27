@@ -1256,7 +1256,7 @@ export default function App() {
                   <div className="grid gap-4 md:grid-cols-2 items-start">
                     <div className="flex flex-col gap-4">
                       <div className="flex items-center gap-4">
-                        <img src={ceo.image} alt="CEO" className="h-full w-full rounded-full object-cover" />
+                        <img src={ceo.image} alt="CEO" className="h-24 w-24 rounded-full object-cover" />
                       
                       </div>
 
