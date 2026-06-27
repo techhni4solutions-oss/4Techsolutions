@@ -1256,14 +1256,15 @@ export default function App() {
                   <div className="grid gap-4 md:grid-cols-2 items-start">
                     <div className="flex flex-col gap-4">
                       <div className="flex items-center gap-4">
-                        <img src={ceo.image} alt="CEO" className="h-24 w-24 rounded-full object-cover" />
-                        <div>
-                          <p className="font-display text-xl font-bold text-white">{ceo.name}</p>
-                          <p className="text-sm text-slate-400">{ceo.title}</p>
-                        </div>
+                        <img src={ceo.image} alt="CEO" className="h-full w-full rounded-full object-cover" />
+                      
                       </div>
 
                       <div className="mt-2 text-sm text-slate-300">
+                          <div>
+                          <p className="font-display text-xl font-bold text-white">{ceo.name}</p>
+                          <p className="text-sm text-slate-400">{ceo.title}</p>
+                        </div>
                         <p className="font-semibold text-white">Our Team</p>
                         <ul className="mt-3 space-y-1 list-disc list-inside text-slate-300">
                           <li>Developers and Engineers</li>
